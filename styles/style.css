@@ -6,3 +6,157 @@ Green: #00B172
 White: #FFF
 
 */
+
+html { 
+    font-family: sans-serif; 
+    color: #1A1A1A; 
+}
+
+h1, body, html, main { 
+    margin: 0; 
+} 
+
+ h1 { 
+     font-size: 64px; 
+     letter-spacing: 1px; 
+    }
+ h2 { 
+     font-size:28px; 
+     letter-spacing: 1px; 
+    }
+ h3 { 
+     font-size:24px; 
+    letter-spacing: 1px; 
+}
+ p { 
+     letter-spacing: 1px; 
+     font-size: 18px; 
+    }
+.logo-header{ 
+    height: 40px; 
+    margin: 10px;
+}
+.nav-bar { 
+    background: white; 
+    padding: 8px; 
+    display: flex; 
+    justify-content: space-between; 
+    width: 100%; 
+    position: fixed;
+}
+.nav-bar-ul { 
+    width: 30%; 
+    isplay: flex; 
+    justify-content: flex-end; 
+    padding-right: 32px ;
+}
+.nav-bar-ul li { 
+    list-style-type: none; 
+    margin: 0 16px;
+}
+.img-bg { 
+    background-image: url(../images/landing.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 720px; 
+}
+    header h1, header div { 
+        color: white;
+}
+header { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+header > div { 
+    margin: 24px; 
+    text-align: center; 
+    line-height: 2; 
+    font-size: 24px;
+}
+section { 
+    padding: 24px;
+}
+#whats-on .container { 
+    display: flex;
+     justify-content: space-evenly; 
+     padding: 24px;
+}
+
+#whats-on > div > h2{ 
+    text-align: center;
+}
+.green-divider { 
+    height: 4px; 
+    background: #00B172; 
+    margin: 0 auto; 
+    width: 20%; 
+    border-radius: 8px; 
+    margin-bottom: 16px;
+    }
+.white-divider { 
+    height: 2px; 
+    background: white; 
+    margin: 0 auto;
+}
+.title-whats-on { 
+    display: flex; 
+    flex-direction: column;
+}
+#whats-on .container > article { 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    width: 240px;
+}
+#whats-on .container > article > h3{ 
+    color: #00B172;
+}
+.info-img { 
+    height: 80px;
+}
+#whats-on article p { 
+    text-align: center; 
+    line-height: 2; 
+    color: grey;}
+
+#green-bg { 
+    background: #00B172 ; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly; 
+    padding: 32px; height: 480px; 
+    align-items: center;
+}
+.logo-white { 
+    background-image: url(../images/spotify-icon-white.png); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 80px; 
+    width: 80px;
+}
+.kanye-info { 
+    width: 32%;
+}
+.kanye-info h2, .kanye-info h3, .kanye-info p{
+    color: white;
+    line-height: 1.2;
+}
+.img-logo { 
+    height: 120px;
+}
+.logo { 
+    align-self: center;
+}
+.spotify-app { 
+    height: 400px;
+}
+.white-divider{ 
+    height: 4px;
+     background: #ffffff; 
+     margin: 0 auto; 
+     border-radius: 8px; 
+     margin-bottom: 16px;
+}
